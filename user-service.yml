@@ -1,0 +1,15 @@
+
+gateway:
+  ip: 192.168.114.4
+
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: '{cipher}AQDOL2wc1aZBAp4bnA6Iz/AISVjED2Im+YPFdfRDu/TU8KOdRMmD7xuyKrRe/vxHyfAiwJ6v+gUUStZZUIGtKsVORVupvMI3uhd6HGRovyuj8P+oPXoVmePHfl0RLuN7bFSZRtKuk2ocW3qH8E8uvLz66sJ2wzd3l4+TE28Fzrgt+aYieSqwARkG1M2iR7hzHsE05vi5t7py+PkGF1gPuIVTQ3I6x3XJrW2Hj4T130rDqOQNv3ib1hiAb20hXHF7aumeVK6RECxqWdD+ILScfXKn0c5N2wm/5xP8FoFZhg0wzlKNtJMicMegEL3At+TGCivj/O5GoHmNdN9Vo5GraYv5kU1lbOR1QzaYseg6OPXJDTjbNVnV2YkRw6Nw/WjoLZs='
+
+order_service:
+  url: http://ORDER-SERVICE/%s/orders
+  exception:
+    orders_is_empty: 연결 오류!
