@@ -1,10 +1,8 @@
-spring:
-  datasource:
-    url: jdbc:mariadb://localhost:3306/mydb
-    driver-class-name: org.mariadb.jdbc.Driver
-    username: root
-    password: '{cipher}AQCw1N2l35UCDX9YdFHlqhFcrZucpwDhbX1nhIs60acKl5YSHhiW5+ZDuogUs3wb/LOEkRXBk6LD7nQjV7q77Eo/u1QoWrnmYdIucBAOQWzYnIR1a2K0ZZL3cpnDnR4J/eQIiAGtysdd2sUWLNKvxSdgMGj/4j0SjdfTbMZGAOLNL2OtBdVmVTbmynsWzB0e2FDtTM2xRviDprihcqVtNY4ILIseSvHm0KdfQQ+FoujEwTF6p+0fGX6+PUNVIVCqO/j/PY0FvbYwBpx6MKnv/cKOfKJf4nvBIA5Y+yAbfqfDZwaakrFLZlTWJ24l4x58BWyzpG4dYotOVR8dYqN0dujsjI0Lb6lmLZ+4IT19bC39PxQx9w6I6P7TnbAlnplSpBw='
-
+# spring:
+#   datasource:
+#     url: jdbc:mariadb://localhost:3306/mydb
+#     driver-class-name: org.mariadb.jdbc.Driver
+#     username: root
 
 # spring:
 #   datasource:
