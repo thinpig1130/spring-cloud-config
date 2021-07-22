@@ -1,14 +1,14 @@
-# spring:
-#   datasource:
-#     url: jdbc:mariadb://localhost:3306/mydb
-#     driver-class-name: org.mariadb.jdbc.Driver
-#     username: root
-#     password: '{cipher}AQCw1N2l35UCDX9YdFHlqhFcrZucpwDhbX1nhIs60acKl5YSHhiW5+ZDuogUs3wb/LOEkRXBk6LD7nQjV7q77Eo/u1QoWrnmYdIucBAOQWzYnIR1a2K0ZZL3cpnDnR4J/eQIiAGtysdd2sUWLNKvxSdgMGj/4j0SjdfTbMZGAOLNL2OtBdVmVTbmynsWzB0e2FDtTM2xRviDprihcqVtNY4ILIseSvHm0KdfQQ+FoujEwTF6p+0fGX6+PUNVIVCqO/j/PY0FvbYwBpx6MKnv/cKOfKJf4nvBIA5Y+yAbfqfDZwaakrFLZlTWJ24l4x58BWyzpG4dYotOVR8dYqN0dujsjI0Lb6lmLZ+4IT19bC39PxQx9w6I6P7TnbAlnplSpBw='
-
-
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:testdb
-    username: sa
-    password: '{cipher}AQDOL2wc1aZBAp4bnA6Iz/AISVjED2Im+YPFdfRDu/TU8KOdRMmD7xuyKrRe/vxHyfAiwJ6v+gUUStZZUIGtKsVORVupvMI3uhd6HGRovyuj8P+oPXoVmePHfl0RLuN7bFSZRtKuk2ocW3qH8E8uvLz66sJ2wzd3l4+TE28Fzrgt+aYieSqwARkG1M2iR7hzHsE05vi5t7py+PkGF1gPuIVTQ3I6x3XJrW2Hj4T130rDqOQNv3ib1hiAb20hXHF7aumeVK6RECxqWdD+ILScfXKn0c5N2wm/5xP8FoFZhg0wzlKNtJMicMegEL3At+TGCivj/O5GoHmNdN9Vo5GraYv5kU1lbOR1QzaYseg6OPXJDTjbNVnV2YkRw6Nw/WjoLZs='
+    url: jdbc:mariadb://localhost:3306/mydb
+    driver-class-name: org.mariadb.jdbc.Driver
+    username: root
+    password: '{cipher}AQCw1N2l35UCDX9YdFHlqhFcrZucpwDhbX1nhIs60acKl5YSHhiW5+ZDuogUs3wb/LOEkRXBk6LD7nQjV7q77Eo/u1QoWrnmYdIucBAOQWzYnIR1a2K0ZZL3cpnDnR4J/eQIiAGtysdd2sUWLNKvxSdgMGj/4j0SjdfTbMZGAOLNL2OtBdVmVTbmynsWzB0e2FDtTM2xRviDprihcqVtNY4ILIseSvHm0KdfQQ+FoujEwTF6p+0fGX6+PUNVIVCqO/j/PY0FvbYwBpx6MKnv/cKOfKJf4nvBIA5Y+yAbfqfDZwaakrFLZlTWJ24l4x58BWyzpG4dYotOVR8dYqN0dujsjI0Lb6lmLZ+4IT19bC39PxQx9w6I6P7TnbAlnplSpBw='
+
+
+# spring:
+#   datasource:
+#     driver-class-name: org.h2.Driver
+#     url: jdbc:h2:mem:testdb
+#     username: sa
+#     password: '{cipher}AQDOL2wc1aZBAp4bnA6Iz/AISVjED2Im+YPFdfRDu/TU8KOdRMmD7xuyKrRe/vxHyfAiwJ6v+gUUStZZUIGtKsVORVupvMI3uhd6HGRovyuj8P+oPXoVmePHfl0RLuN7bFSZRtKuk2ocW3qH8E8uvLz66sJ2wzd3l4+TE28Fzrgt+aYieSqwARkG1M2iR7hzHsE05vi5t7py+PkGF1gPuIVTQ3I6x3XJrW2Hj4T130rDqOQNv3ib1hiAb20hXHF7aumeVK6RECxqWdD+ILScfXKn0c5N2wm/5xP8FoFZhg0wzlKNtJMicMegEL3At+TGCivj/O5GoHmNdN9Vo5GraYv5kU1lbOR1QzaYseg6OPXJDTjbNVnV2YkRw6Nw/WjoLZs='
